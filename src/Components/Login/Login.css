@@ -1,0 +1,91 @@
+.overlay{
+    width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+  background-color: black;
+}
+
+.component{
+    width: 40%;
+    height: fit-content;
+    box-shadow: 0rem 0.3125rem 2.1875rem #00000033;
+    z-index: 50;
+    top: 20%;
+    left: 30%;
+    position: absolute;
+}
+
+.body-component{
+    background: #ffffff 0% 0% no-repeat padding-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.header{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.mobile-header{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.email-input-div{
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 56%;
+    border: 1px solid #333333;
+}
+
+.email-image{
+    width: 2rem;
+    height: 2rem;
+}
+
+.mobile-number-box{
+    font-size: 1rem;
+    padding-left: 0.2rem;
+    border: none;
+}
+.mobile-number-box:focus{
+    outline: none;
+}
+
+.login-button-div{
+    width: 60%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #333333;
+        border-radius: 0.5rem;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+}
+
+.error{
+    color: red;
+}
+
+.suggest-signup-div{
+    text-align: end;
+    padding: 1rem;
+}
+
+.sign-up-span{
+    color: rgb(102, 160, 236);
+    text-decoration: underline;
+}
+
+.sign-up-span:hover{
+    text-decoration: none;
+}

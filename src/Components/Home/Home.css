@@ -1,0 +1,61 @@
+
+
+.home {
+    width: 100%;
+    height: 100%;
+}
+.home-header{
+    width: 100%;
+    background-color: #638eae;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-logo{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+}
+
+.sleep-image{
+    height: 30rem;
+    width: 30rem;
+    margin-top: 5rem;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-header{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.buttons-container{
+    display: flex;
+    margin-right: 5rem;
+    align-items: center;
+}
+
+.login-button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #142455;
+    width: 7rem;
+    margin-right: 2rem;
+    background: #142455;
+    color: #Dbe8f1;
+}
+
+.home-body-container{
+    background-color: #385277;
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+}
